@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мавпи: Дивовижні примати</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      text-align: left; 
+      background-color: #f4a261; 
+      padding: 20px; 
+    }
+    header, footer { 
+      background-color: #e76f51; 
+      padding: 20px; 
+      color: white; 
+    }
+    main { 
+      padding: 20px; 
+    }
+    img { 
+      width: 300px; 
+      height: auto; 
+      margin: 10px 0; 
+      display: block; 
+    }
+    .graph { 
+      margin: 20px 0; 
+      text-align: center; 
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Мавпи: Дивовижні примати</h1>
+    <p>Досліджуйте світ мавп!</p>
+    <nav>
+      <a href="#graph">Графік популяції</a>
+      <a href="#species">Види мавп</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <h2>Вступ</h2>
+      <p>Мавпи – розумні тварини, що живуть у різних частинах світу. Вони мають соціальну поведінку та використовують інструменти.</p>
+      <p>Їхній зовнішній вигляд вражає, а більшість мешкає в тропічних лісах.</p>
+      <p>Збереження їхнього середовища важливе через вирубку лісів і людську діяльність.</p>
+      <img src="https://static.pexels.com/photos/132447/pexels-photo-132447.jpeg" alt="Мавпа на дереві">
+    </section>
+    <section id="species">
+      <h2>Види мавп</h2>
+      <p>Існують мавпи Старого і Нового Світу. Старосвітові мають вузькі носи і коротші хвости, живуть переважно на землі.</p>
+      <p>Новосвітові мають широкі носи та довгі хвости, мешкають переважно на деревах.</p>
+      <p>Кожен вид має свої особливості. <a href="https://uk.wikipedia.org/wiki/Мавпи" target="_blank">Дізнатись більше</a></p>
+      <img src="https://thumbs.dreamstime.com/b/monkeys-fun-to-play-20397845.jpg" alt="Грайлива мавпа">
+    </section>
+    <section id="habitat">
+      <h2>Середовище існування мавп</h2>
+      <p>Мавпи живуть у тропічних лісах, саванах, джунглях та навіть у містах. Вони знаходять їжу в природних екосистемах.</p>
+      <p>Вирубка лісів і зміни клімату загрожують їхньому існуванню.</p>
+      <p>Охорона природи допомагає створювати заповідники для їхнього виживання.</p>
+      <img src="https://media.discoverafrica.com/wp-content/uploads/2014/01/iStock-1138438637.jpg?strip=all&lossy=1&resize=576%2C384&ssl=1" alt="Мавпи в джунглях">
+    </section>
+    <section id="graph">
+      <h2>Графік популяції мавп</h2>
+      <div class="graph">
+        <svg width="300" height="200">
+          <line x1="40" y1="10" x2="40" y2="180" stroke="black" />
+          <line x1="40" y1="180" x2="290" y2="180" stroke="black" />
+          <rect x="70" y="80" width="40" height="100" fill="rgba(4, 162, 97, 0.7)" />
+          <rect x="170" y="100" width="40" height="80" fill="rgba(243, 11, 56, 0.67)" />
+          <text x="90" y="195" font-size="12" text-anchor="middle">Старий Світ</text>
+          <text x="190" y="195" font-size="12" text-anchor="middle">Новий Світ</text>
+          <text x="90" y="75" font-size="12" text-anchor="middle">100</text>
+          <text x="190" y="95" font-size="12" text-anchor="middle">80</text>
+        </svg>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Світ мавп</p>
+    <p>Тел: +380 (12) 345-67-89</p>
+    <p>Адреса: вул. Прикладна, 123, Київ, Україна</p>
+  </footer>
+</body>
+</html>
